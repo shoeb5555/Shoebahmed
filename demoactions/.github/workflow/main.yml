@@ -1,4 +1,4 @@
 jobs:        
-: github action demo
+name: github action demo
 run name: "Hello World"
 run-on: ubuntu latest
