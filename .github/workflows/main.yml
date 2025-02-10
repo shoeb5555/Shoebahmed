@@ -1,0 +1,4 @@
+name: github action demo
+run-name: "hello world"
+job
+run on: ubuntu latest
