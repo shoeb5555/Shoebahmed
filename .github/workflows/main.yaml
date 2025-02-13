@@ -9,4 +9,4 @@ jobs:
 
     steps:
     - name : print hello world
-      run: echo "helloo world"
+      run: echo "hello world"
