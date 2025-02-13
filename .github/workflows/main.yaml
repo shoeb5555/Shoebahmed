@@ -1,10 +1,12 @@
-name: CICD for my application      
-on:  
-  workflow_dispatch: 
-jobs:  
-      say-hello:
-      run-on: ubuntu-latest
+name: CICD for My application
 
-         steps:
-         name : print hello world
-         run: echo "helloo world"
+on:  
+  workflow_dispatch:
+  
+jobs:
+  say-hello:
+    run-on: ubuntu-latest
+
+    steps:
+    - name : print hello world
+      run: echo "helloo world"
